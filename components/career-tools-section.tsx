@@ -8,39 +8,59 @@ import { Brain, FileText, MessageSquare, CheckCircle, Search, ArrowRight } from 
 const tools = [
   {
     name: "CrackIt",
-    description: "Practice DS & Aptitude Tests",
+    description: "Technical Interview Prep",
+    longDescription:
+      "Master the art of cracking technical interviews. Our comprehensive platform provides in-depth practice for coding challenges, algorithmic problems, and core computer science concepts.",
     icon: Brain,
-    details: "Master data structures and aptitude with our comprehensive test platform.",
     color: "text-blue-600",
-  },
-  {
-    name: "BuildIt",
-    description: "Easy Resume Builder",
-    icon: FileText,
-    details: "Create professional resumes with our intuitive drag-and-drop builder.",
-    color: "text-green-600",
-  },
-  {
-    name: "MokIt",
-    description: "AI-Powered Mock Interview",
-    icon: MessageSquare,
-    details: "Practice interviews with AI feedback to boost your confidence.",
-    color: "text-purple-600",
+    bgColor: "bg-blue-50",
+    url: "https://hackgenex.vercel.app/",
+    gradient: "from-blue-500 to-blue-700"
   },
   {
     name: "TestIt",
-    description: "ATS Resume Checker",
+    description: "Skills Validation",
+    longDescription:
+      "Validate and refine your skills with our advanced testing platform. Get detailed assessments, performance analytics, and targeted improvement recommendations.",
     icon: CheckCircle,
-    details: "Optimize your resume to pass Applicant Tracking Systems.",
     color: "text-orange-600",
+    bgColor: "bg-orange-50",
+    url: "https://testit-tau.vercel.app/",
+    gradient: "from-orange-500 to-orange-700"
+  },
+  {
+    name: "BuildIt",
+    description: "Career Portfolio Creation",
+    longDescription:
+      "Transform your potential into a powerful career narrative. Build professional resumes, portfolios, and personal branding materials that stand out in competitive job markets.",
+    icon: FileText,
+    color: "text-green-600",
+    bgColor: "bg-green-50",
+    url: "https://resume-pro-khaki.vercel.app/",
+    gradient: "from-green-500 to-green-700"
   },
   {
     name: "CheckIt",
-    description: "Smart Job Search",
+    description: "Smart Job Matching",
+    longDescription:
+      "Navigate your career path with precision. Our intelligent job search engine matches your skills, experience, and aspirations with the perfect opportunities.",
     icon: Search,
-    details: "Find relevant job opportunities with our intelligent matching system.",
     color: "text-red-600",
+    bgColor: "bg-red-50",
+    url: "https://7kk5xcvx-3000.inc1.devtunnels.ms/login",
+    gradient: "from-red-500 to-red-700"
   },
+  {
+    name: "MokIt",
+    description: "AI Interview Coaching",
+    longDescription:
+      "Elevate your interview performance with AI-powered mock interviews. Receive real-time feedback, communication insights, and personalized coaching strategies.",
+    icon: MessageSquare,
+    color: "text-purple-600",
+    bgColor: "bg-purple-50",
+    url: "#",
+    gradient: "from-purple-500 to-purple-700"
+  }
 ]
 
 export function CareerToolsSection() {
@@ -118,7 +138,8 @@ export function CareerToolsSection() {
             return (
               <Card
                 key={tool.name}
-                className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-2 border-border/50 hover:border-primary/20"
+                className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-2 border-border/50 hover:border-primary/20 cursor-pointer"
+                onClick={() => window.open(tool.url, '_blank', 'noopener,noreferrer')}
               >
                 <CardHeader className="text-center pb-4">
                   <div className="mx-auto mb-4 p-3 bg-muted rounded-full w-fit group-hover:bg-primary/10 transition-colors">
@@ -130,10 +151,14 @@ export function CareerToolsSection() {
                   <CardDescription className="text-muted-foreground font-medium">{tool.description}</CardDescription>
                 </CardHeader>
                 <CardContent className="text-center">
-                  <p className="text-sm text-muted-foreground mb-6 text-pretty">{tool.details}</p>
+                  <p className="text-sm text-muted-foreground mb-6 text-pretty">{tool.longDescription}</p>
                   <Button
                     className="w-full group-hover:bg-primary group-hover:text-primary-foreground transition-colors bg-transparent"
                     variant="outline"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      window.open(tool.url, '_blank', 'noopener,noreferrer');
+                    }}
                   >
                     Try Now
                     <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
