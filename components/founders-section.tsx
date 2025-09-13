@@ -14,7 +14,7 @@ const founders = [
     expertise: "Full-Stack Development",
   },
   {
-    name: "I. Vinay Blessy Baby",
+    name: "I. Vinay Blessy Babu",
     branch: "B.Tech ECE",
     batch: "2023–2027",
     role: "Developed CheckIt",

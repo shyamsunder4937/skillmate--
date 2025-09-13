@@ -7,7 +7,7 @@ import { Brain, FileText, MessageSquare, CheckCircle, Search, ArrowRight } from 
 
 const tools = [
   {
-    name: "CrackIt",
+    name: "MockIt",
     description: "AI Interview Coaching",
     longDescription:
       "Master the art of cracking technical interviews. Our comprehensive platform provides in-depth practice for coding challenges, algorithmic problems, and core computer science concepts.",
@@ -137,7 +137,7 @@ export function CareerToolsSection() {
             const IconComponent = tool.icon
             return (
               <Card
-                key={index}
+                key={tool.name}
                 className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-2 border-border/50 hover:border-primary/20 cursor-pointer"
                 onClick={() => window.open(tool.url, '_blank', 'noopener,noreferrer')}
               >

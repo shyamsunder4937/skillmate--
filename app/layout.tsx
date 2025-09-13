@@ -5,8 +5,8 @@ import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
+  title: 'SkillMate',
+  description: 'Your one-stop platform for job seekers. Master skills, build resumes, ace interviews, and land your dream job.',
   generator: 'v0.app',
 }
 
@@ -17,6 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <link rel="icon" href="/favicon.ico" />
       <title>SkillMate</title>
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}>
         {children}
