@@ -8,7 +8,7 @@ import { Brain, FileText, MessageSquare, CheckCircle, Search, ArrowRight } from 
 const tools = [
   {
     name: "CrackIt",
-    description: "Technical Interview Prep",
+    description: "AI Interview Coaching",
     longDescription:
       "Master the art of cracking technical interviews. Our comprehensive platform provides in-depth practice for coding challenges, algorithmic problems, and core computer science concepts.",
     icon: Brain,
@@ -19,7 +19,7 @@ const tools = [
   },
   {
     name: "TestIt",
-    description: "Skills Validation",
+    description: "Ats resume creation",
     longDescription:
       "Validate and refine your skills with our advanced testing platform. Get detailed assessments, performance analytics, and targeted improvement recommendations.",
     icon: CheckCircle,
@@ -30,7 +30,7 @@ const tools = [
   },
   {
     name: "BuildIt",
-    description: "Career Portfolio Creation",
+    description: "Career Resume Creation",
     longDescription:
       "Transform your potential into a powerful career narrative. Build professional resumes, portfolios, and personal branding materials that stand out in competitive job markets.",
     icon: FileText,
@@ -51,14 +51,14 @@ const tools = [
     gradient: "from-red-500 to-red-700"
   },
   {
-    name: "MokIt",
+    name: "CrackIt",
     description: "AI Interview Coaching",
     longDescription:
       "Elevate your interview performance with AI-powered mock interviews. Receive real-time feedback, communication insights, and personalized coaching strategies.",
     icon: MessageSquare,
     color: "text-purple-600",
     bgColor: "bg-purple-50",
-    url: "#",
+    url: "https://vl9hrdxs-3000.inc1.devtunnels.ms/",
     gradient: "from-purple-500 to-purple-700"
   }
 ]
