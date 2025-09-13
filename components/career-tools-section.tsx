@@ -137,7 +137,7 @@ export function CareerToolsSection() {
             const IconComponent = tool.icon
             return (
               <Card
-                key={tool.name}
+                key={index}
                 className="group hover:shadow-lg transition-all duration-300 hover:-translate-y-2 border-border/50 hover:border-primary/20 cursor-pointer"
                 onClick={() => window.open(tool.url, '_blank', 'noopener,noreferrer')}
               >
