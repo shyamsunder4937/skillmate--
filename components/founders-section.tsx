@@ -21,7 +21,7 @@ const founders = [
     expertise: "Product Strategy",
   },
   {
-    name: "p.Shasank",
+    name: "P.Shasank",
     branch: "B.Tech CSE",
     batch: "2023–2027",
     role: "Developed CrackIt",
