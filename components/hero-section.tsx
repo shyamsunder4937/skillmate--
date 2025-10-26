@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from "react"
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 import { ArrowRight, Sparkles } from "lucide-react"
 
 export function HeroSection() {
@@ -78,12 +79,17 @@ export function HeroSection() {
         </p>
 
         <div ref={buttonRef} className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button size="lg" className="text-lg px-8 py-6">
-            Get Started
-            <ArrowRight className="ml-2 h-5 w-5" />
+          <Button asChild size="lg" className="text-lg px-8 py-6">
+            <Link href="#tools" className="flex items-center justify-center">
+              Get Started
+              <ArrowRight className="ml-2 h-5 w-5" />
+            </Link>
           </Button>
-          <Button variant="outline" size="lg" className="text-lg px-8 py-6 bg-transparent">
-            Learn More
+
+          <Button asChild variant="outline" size="lg" className="text-lg px-8 py-6 bg-transparent">
+            <Link href="#founders" className="flex items-center justify-center">
+              Learn More
+            </Link>
           </Button>
         </div>
       </div>

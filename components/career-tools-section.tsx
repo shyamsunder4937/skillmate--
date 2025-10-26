@@ -50,17 +50,7 @@ const tools = [
     url: "https://7kk5xcvx-3000.inc1.devtunnels.ms/",
     gradient: "from-red-500 to-red-700"
   },
-  {
-    name: "CrackIt",
-    description: "AI Interview Coaching",
-    longDescription:
-      "Elevate your interview performance with AI-powered mock interviews. Receive real-time feedback, communication insights, and personalized coaching strategies.",
-    icon: MessageSquare,
-    color: "text-purple-600",
-    bgColor: "bg-purple-50",
-    url: "https://vl9hrdxs-3000.inc1.devtunnels.ms/",
-    gradient: "from-purple-500 to-purple-700"
-  }
+ 
 ]
 
 export function CareerToolsSection() {

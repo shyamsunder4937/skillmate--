@@ -14,26 +14,20 @@ const founders = [
     expertise: "Full-Stack Development",
   },
   {
-    name: "I. Vinay Blessy Babu",
+    name: "P.Naga Bala Karteek",
     branch: "B.Tech ECE",
     batch: "2023–2027",
     role: "Developed CheckIt",
     expertise: "Product Strategy",
   },
   {
-    name: "Gnaneswar",
+    name: "p.Shasank",
     branch: "B.Tech CSE",
     batch: "2023–2027",
     role: "Developed CrackIt",
     expertise: "Business Development",
   },
-  {
-    name: "Kesar Sunil",
-    branch: "B.Tech CSE",
-    batch: "2023–2027",
-    role: "Developed BUildIt",
-    expertise: "Marketing & Growth",
-  },
+  
 ]
 
 export function FoundersSection() {

@@ -67,9 +67,9 @@ export function Footer() {
             <h4 className="text-lg font-semibold mb-4">Contact</h4>
             <ul className="space-y-2 text-primary-foreground/80">
               <li>support@skillmate.com</li>
-              <li>+1 (555) 123-4567</li>
-              <li>123 Career Street</li>
-              <li>Tech City, TC 12345</li>
+              <li>8374372594</li>
+              <li>kalasalingam university</li>
+              <li>Madurai Tamilnaidu</li>
             </ul>
           </div>
         </div>
