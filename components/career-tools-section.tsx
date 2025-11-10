@@ -47,7 +47,7 @@ const tools = [
     icon: Search,
     color: "text-red-600",
     bgColor: "bg-red-50",
-    url: "https://7kk5xcvx-3000.inc1.devtunnels.ms/",
+    url: "https://nhhbqhb4-3000.inc1.devtunnels.ms/login",
     gradient: "from-red-500 to-red-700"
   },
  
