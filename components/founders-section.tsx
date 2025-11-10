@@ -22,7 +22,7 @@ const founders = [
   },
   {
     name: "P.Shasank",
-    branch: "B.Tech CSE",
+    branch: "B.Tech ECE",
     batch: "2023–2027",
     role: "Developed CrackIt",
     expertise: "Business Development",
