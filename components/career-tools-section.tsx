@@ -43,7 +43,7 @@ const tools = [
     name: "CheckIt",
     description: "Smart Job Matching",
     longDescription:
-      "Navigate your career path with precision. Our intelligent job search engine matches your skills, experience, and aspirations with the perfect opportunities.",
+      "Navigate you career path with precision. Our intelligent job search engine matches your skills, experience, and aspirations with the perfect opportunities.",
     icon: Search,
     color: "text-red-600",
     bgColor: "bg-red-50",
